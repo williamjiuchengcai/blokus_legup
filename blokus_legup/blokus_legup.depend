@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1372126758 source:/home/legup/blokus_legup/board.c
+	"board.h"
+	"board_helper.h"
+
+1372093942 /home/legup/blokus_legup/board.h
+	<stdio.h>
+	<stdlib.h>
+	"hand.h"
+
+1371756024 /home/legup/blokus_legup/hand.h
+	<stdio.h>
+	<stdlib.h>
+
+1372104274 /home/legup/blokus_legup/board_helper.h
+	<stdio.h>
+	<stdlib.h>
+	"hand.h"
+	"tile_array_transform.h"
+
+1372091720 /home/legup/blokus_legup/tile_array_transform.h
+	<stdio.h>
+	<stdlib.h>
+	"hand.h"
+
+1372102770 source:/home/legup/blokus_legup/board_helper.c
+	"board_helper.h"
+
+1372112434 source:/home/legup/blokus_legup/board_visual.c
+	"board_visual.h"
+
+1372105278 /home/legup/blokus_legup/board_visual.h
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"hand.h"
+
+1372097770 source:/home/legup/blokus_legup/hand.c
+	"hand.h"
+
+1372105784 source:/home/legup/blokus_legup/main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"board_visual.h"
+	"hand.h"
+	"tile_array_transform.h"
+
+1372127846 source:/home/legup/blokus_legup/tile_array_transform.c
+	"tile_array_transform.h"
+

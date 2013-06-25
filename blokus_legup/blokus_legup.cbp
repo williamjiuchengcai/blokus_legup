@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="blokus_legup" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/blokus_legup" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/blokus_legup" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c99" />
+		</Compiler>
+		<Unit filename="../board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../board.h" />
+		<Unit filename="../board_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../board_helper.h" />
+		<Unit filename="../board_visual.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../board_visual.h" />
+		<Unit filename="../hand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../hand.h" />
+		<Unit filename="../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../tile_array_transform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../tile_array_transform.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
